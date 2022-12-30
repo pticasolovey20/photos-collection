@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { setCategoryIdAction } from '../../store/actions/setCategoryIdAction';
+import { setCategoryIdAction } from '../../store/category/actions';
 
 import { styled, ListItem, ListItemButton, Typography } from '@mui/material';
 

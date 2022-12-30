@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { selectCategoryId } from '../../store/selectors/selectCategoryId';
+import { selectCategoryId } from '../../store/category/selectors';
 import { getPhotos } from '../../services/getPhotos';
 
 import { Container, Grid } from '@mui/material';

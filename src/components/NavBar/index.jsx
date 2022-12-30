@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { openDrawerAction } from '../../store/actions/openDrawerAction';
+import { openDrawerAction } from '../../store/drawer/actions';
 
 import { styled, AppBar, Toolbar, Box, Typography, TextField } from '@mui/material';
 import Menu from '../../assets/img/menu.png';

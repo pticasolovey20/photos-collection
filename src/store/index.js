@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
-import { drawerReducer } from './reducers/drawerReducer';
-import { categoryReducer } from './reducers/categoryReducer';
+import { drawerReducer } from './drawer/reducer';
+import { categoryReducer } from './category/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 

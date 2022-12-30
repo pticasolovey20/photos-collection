@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { openDrawerAction } from '../../store/actions/openDrawerAction';
-import { selectOpenDrawer } from '../../store/selectors/selectOpenDrawer';
+import { openDrawerAction } from '../../store/drawer/actions';
+import { selectOpenDrawer } from '../../store/drawer/selectors';
 
 import { styled, Drawer, List, Typography } from '@mui/material';
 import { Categories } from '../Categories';
